@@ -1,0 +1,838 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "input": [
+        "hello",
+        "hi there",
+        "nice to meet you",
+        "hi, is this is the pirate's organization",
+        "any pirates here ?",
+        "hi",
+        "hey there",
+        "hey",
+        "hi there",
+        "hi, nice to meet you",
+        "hello there",
+        "anyone there ?",
+        "hello pirates",
+        "knock knock"
+      ],
+      "responses": [
+        "Hi. Welcome to the world's largest pirate organization - The Strawhats",
+        "Hey yo, do you need help ?",
+        "welcome aboard, how may I help you ?",
+        "ahoy!!",
+        "Hi random person, what do'ya want ?",
+        "Hello my friend, How can I help you ?",
+        "Ha , Glad you showed up. How are you ?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "input": [
+        "Thank you",
+        "Thanks",
+        "Thanks for the info",
+        "bye",
+        "byr bro",
+        "adios",
+        "okay bye",
+        "goodbye",
+        "see you later",
+        "i will catch you later",
+        "i will catch up later",
+        "okay i will see you later",
+        "I will talk to you later",
+        "will text you later",
+        "bye bro, I'll talk to you later",
+        "Bye brother"
+      ],
+      "responses": [
+        "Okay, Bye",
+        "Have a nice day",
+        "Adios",
+        "Goodbye",
+        "see you later",
+        "nice conversation. bye",
+        "okay. Have a nice day",
+        "Take care",
+        "we'll meet soon",
+        "Yeah Sure, Will talk to you later",
+        "Okay , Take care"
+      ]
+    },
+    {
+      "tag": "sugar_level",
+      "input": [
+        "What is a normal blood sugar level?",
+        "Can I know what is the normal blood sugar level?",
+        "What is the level of sugar that is considered normal in the blood?",
+        "What is the level of blood sugar that is considered normal?",
+        "What is the amount of sugar in the blood that is considered normal?",
+        "What is the level of sugar that is considered normal in the blood?",
+        "Can I know the normal level of sugar in the blood?",
+        "I want to know the normal level of sugar in the blood?",
+        "Can you answer what is the normal blood sugar level?",
+        "In the normal case, what is the level of sugar in the blood?",
+        "what is the level of sugar in the blood?, In the normal case",
+        "What is the level of sugar in the blood in the normal case?",
+        "According to the normal condition, what is the level of sugar in the blood?",
+        "Can you determine the normal blood sugar level?",
+        "Normal level of sugar in the blood",
+        "What is the normal blood sugar level for a person?",
+        "What is the normal level of sugar in the blood?",
+        "Can you tell me about the normal level of sugar in the blood?",
+        "What level is considered a normal level of sugar in the blood?",
+        "What level should the blood sugar be to be normal?",
+        "Normal levels of sugar in the blood?",
+        "I want to know the normal level of sugar in the blood?",
+        "Is there a specific percentage of normal blood sugar?",
+        "The normal level of sugar in the blood?",
+        "What is the normal rate of sugar in the blood?",
+        "I want to know the normal percentage of sugar in the blood?"
+      ],
+      "responses": [
+        "A person without diabetes will have an A1C test below 5.7%, a fasting blood glucose test less than 100 mg/dl, and a glucose tolerance test of 140 mg/dl or below.",
+        "A1C test less than 5.7%, as well as a fasting blood glucose test below 100 mg/dL, and a glucose tolerance test of 140 mg/dL or less, for a normal person without diabetes.",
+        "For a person without diabetes, there are some tests whose value should be: A1C test less than 5.7%, a fasting blood glucose test of less than 100 mg/dL, and a glucose tolerance test of 140 mg/dL or less."
+      ]
+    },
+    {
+      "tag": "sugar_level_after_1_hour",
+      "input": [
+        "What is a normal blood sugar 1 hour after eating?",
+        "What is a normal blood sugar one hour after eating?",
+        "In general, how can I know the normal blood sugar level after an hour of eating?",
+        "An hour after eating, what is the normal blood sugar level?",
+        "How can I know the normal blood sugar level after an hour of eating?",
+        "One hour after eating, how can I know the normal blood sugar level?",
+        "1 hour after eating, how can I know the normal blood sugar level?",
+        "An hour after eating, what is normal blood sugar?",
+        "Suppose I ate food. How can I know the normal blood sugar level an hour after the end of eating?",
+        "One hour after I finish eating, how do I know my normal blood sugar level?",
+        "after finish eating by 1 hour, how do I know my normal blood sugar?",
+        "after finish eating by one hour, how do I know my normal blood sugar?",
+        "Suppose I finished eating, what is the normal sugar level, an hour after eating?",
+        "Can I know my normal blood sugar level one hour after I finish eating?",
+        "Can I know my normal blood sugar level 1 hour after I finish eating?",
+        "Is there a way by which I can determine the normal blood sugar level an hour after eating?",
+        "Can you tell me your normal blood sugar level, an hour after you finish eating?",
+        "Normal blood sugar level one hour after eating?",
+        "What is the normal level of sugar in the blood one hour after you finish eating?",
+        "What is the normal percentage of sugar in the blood after eating one hour?",
+        "Can I know what is the percentage of sugar in my blood one hour after I finish eating?",
+        "What percentage can I get one hour after I finish eating?",
+        "An hour after you finish eating, what is the expected percentage of your blood sugar level?",
+        "What is the expected percentage that the blood sugar level can reach?",
+        "How do I know what is the normal level of sugar in the blood one hour after finishing eating?",
+        "What is the expected blood sugar level one hour after you finish eating?",
+        "Does one hour after you finish eating the normal blood sugar level change?",
+        "Does the normal blood sugar level change one hour after you finish eating?",
+        "Can one hour after you finish eating cause your blood sugar level to change?",
+        "What is the expected level of percentage of blood sugar that can reach after eating?",
+        "What percentage can we reach in the blood sugar level one hour after finishing meals?",
+        "Can my blood sugar level change one hour after I finish eating meals?"
+      ],
+      "responses": [
+        "The highest peak blood sugar levels generally occur 1 hour after a meal if carbohydrates were eaten. At 2 hours after a meal, protein begins to break down into blood sugar which could again increase blood sugar. Generally, over the course of a day, your blood sugar should not go over 140, even after eating a large meal. Ideally it would not go over 120 two hours after eating. This goal should be discussed with a medical provider because some people may require a higher goal in order to avoid hypoglycemia (low blood sugar).",
+        "We can define it according to the following figure and methodology, the highest blood sugar levels generally occur one hour after a meal if carbohydrates are eaten. Two hours after a meal, the protein begins to break down into blood sugar which can cause your blood sugar to spike again. In general, throughout the day, your blood sugar should be no higher than 140, even after eating a large meal. Ideally, it will not exceed 120 hours after eating. This goal should be discussed with your medical provider because some people may need a higher goal to avoid hypoglycemia (low blood sugar)."
+      ]
+    },
+    {
+      "tag": "test_diabetes",
+      "input": [
+        "How do I test for diabetes?",
+        "How do I get tested for diabetes?",
+        "Can you tell me how I can get tested for diabetes?",
+        "I would like to know how to test for diabetes?",
+        "What tests can I do to detect diabetes?",
+        "I want to know how I can test for diabetes?",
+        "What tests can I do to test whether I have diabetes or not?",
+        "What is the way to detect diabetes?",
+        "I want to know the means that can be followed to detect diabetes?",
+        "Can you please guide me on how I can get tested for diabetes?",
+        "Is there a way to detect diabetes?",
+        "Looking for a way to detect diabetes?",
+        "What tests can I do to detect diabetes?",
+        "What medical tests can I do to detect diabetes?",
+        "Can you give me a list of tests that I can do to detect diabetes?",
+        "Could you please give me a list of tests that I can do to detect diabetes?",
+        "Is there a way I can follow to detect diabetes early?",
+        "I want suggestions for a number of methods and tests to confirm diabetes?",
+        "What are the suggested tests that can be relied upon to determine diabetes?",
+        "Are there specific medical tests that can be used to confirm diabetes?",
+        "Can you tell me a number of medical procedures and tests that can be relied upon to confirm diabetes?",
+        "What are the suggested medical tests to confirm that I have diabetes?",
+        "How can I test myself to see if I have diabetes or not?",
+        "Are there specific medical procedures for early detection of diabetes?",
+        "What are the medical tests that can help in early detection of diabetes?",
+        "Are there medical suggestions for tests that can help us in early detection of diabetes?",
+        "What medical tests can I do that help me detect diabetes early?"
+      ],
+      "responses": [
+        "You are considered to have diabetes when either 1) your A1C test is 6.5% or greater 2) your fasting blood glucose is 126 mg/dl or greater 3) your oral glucose tolerance test is 200 mg/dl or greater",
+        "If the results of the following tests are according to the following figure, then he has diabetes 1) Your A1C test is 6.5% or more 2) Fasting blood glucose level of 126 mg/dL or more 3) Oral glucose tolerance test is 200 mg/dL or more"
+      ]
+    },
+    {
+      "tag": "sugar_level_in_morning",
+      "input": [
+        "Why is my blood sugar high in the morning?",
+        "Why does my blood sugar rise in the morning?",
+        "Why is the blood sugar high in the morning?",
+        "Can I get an explanation for why my blood sugar rises in the morning?",
+        "In the morning I notice a rise in blood sugar?",
+        "In the early morning I always notice a noticeable rise in blood sugar?",
+        "Can I find a scientific explanation for high blood sugar in the morning?",
+        "In the morning the blood sugar level is high, is there an explanation for this?",
+        "Want a scientific explanation for high morning blood sugar?",
+        "Can you tell me why my blood sugar is high in the morning?",
+        "Is your blood sugar always high in the morning?",
+        "When I get up in the morning, I find that my blood sugar is high?",
+        "I would like to clarify why blood sugar rises in the morning?",
+        "In the morning I find that my blood sugar is high, can you explain that to me?",
+        "Can you give an explanation for why blood sugar rises in the early morning?",
+        "What is the reason behind high blood sugar in the early morning?",
+        "What is the logical explanation for the high blood sugar level in the morning?",
+        "In the morning I always notice a rise in blood sugar, is there an explanation for that?",
+        "When I get up in the morning I notice a rise in blood sugar level?",
+        "Is there an explanation for the high blood sugar level after waking up in the morning?",
+        "When you wake up in the morning, what is the reason that leads to a high blood sugar level?",
+        "My blood sugar level rises in the morning when I wake up, why is that?",
+        "What is the reason for my blood sugar level to rise when I wake up in the morning?",
+        "I want an explanation as to why my blood sugar level rises when I wake up in the morning",
+        "What is the relationship between waking up in the morning and high blood sugar level?"
+      ],
+      "responses": [
+        "This early morning rise in glucose, known as the “dawn phenomenon” is normal and happens when our bodies produce a surge of hormones to help us wake up. During the day, activity tends to keep sugars under control if following a healthy, active lifestyle. If using insulin, it may help to adjust your nighttime dosage",
+        "We can explain the rise in glucose in the early morning, also called as the 'dawn phenomenon,' is normal and occurs when our bodies produce excess hormones to help us wake up. During the day, activity tends to keep sugars in check if you follow a healthy and active lifestyle. If you use insulin, it may be helpful to adjust your nightly dose"
+      ]
+    },
+    {
+      "tag": "father_diabetes",
+      "input": [
+        "If my father has type 2 diabetes, does that mean that I am more likely to get it also?",
+        "If my dad has type 2 diabetes, does that mean I'm more likely to have it, too?",
+        "Let's say my dad has type 2 diabetes, so does that mean I'm more likely to have it too?",
+        "Assuming that my father has type 2 diabetes, is that considered that I am more likely to have it as well?",
+        "Is there a high chance that I will develop diabetes if my father has type 2 diabetes?",
+        "Does a father having type 2 diabetes increase the risk of passing on the disease to children?",
+        "Can children develop diabetes if the father has type 2 diabetes?",
+        "Does the child's risk of developing diabetes increase with the parent having type 2 diabetes?",
+        "Does the child's risk of developing diabetes increase with the parent's having type 2 diabetes?",
+        "I would like to clarify the possibility that I will develop diabetes if my father has type 2 diabetes?",
+        "What is the risk that I will develop diabetes if my father has type 2 diabetes?",
+        "Is there a high chance that I will develop prediabetes or prediabetes if my parents have type 2 diabetes?",
+        "Can type 2 diabetes be passed from my parents to me?",
+        "Is there a link in the genetic transmission of type 2 diabetes?",
+        "Can diabetes be passed from my parents to me?",
+        "What is the probability of transmission of diabetes from the affected parent to the son?",
+        "Can diabetes be passed from a parent with diabetes to their children?",
+        "Is the possibility of transmission of diabetes from parents to children very high?",
+        "Is there a possibility that children will develop diabetes if the parents have it?",
+        "Does the presence of a father with diabetes lead to transmission of the disease to the children?",
+        "If one of the parents suffers from diabetes, does this lead to the transmission of this disease to the children at a high rate?",
+        "Can diabetes be passed genetically to offspring?",
+        "What is the genetic link for the transmission of diabetes from parents to children?",
+        "Is there a possibility by which diabetes can be transmitted from one of the parents with it to the children?",
+        "Can diabetes be transmitted from parents with it to their children?",
+        "Can I have diabetes if my father has it?",
+        "Can I be more likely to get diabetes if one of my parents has it?"
+      ],
+      "responses": [
+        "You may have the genetic foundation for developing diabetes, but it is not inevitable.  What you hopefully have learned is that lifestyle and food management are so important to staying in good health. Stay active, eat unrefined foods as much as possible, and manage stress levels.  These are the first ingredients to a healthier life."
+      ]
+    },
+    {
+      "tag": "tayp_diabetes",
+      "input": [
+        "How do I find out whether I am type 1 or type 2 diabetes?",
+        "How do I find out whether I type 1 or type 2 diabetes?",
+        "How can I tell if I have type 1 or type 2 diabetes?",
+        "How can I know if I have type 1 or type 2 diabetes?",
+        "I want the way to know if I have type 1 or type 2 diabetes?",
+        "Is there a way to know if he has type 1 or type 2 diabetes?",
+        "Can I know the reliable way to know if I have type 1 or type 2 diabetes?",
+        "What are the means by which the type of injury can be determined if it is type 1 or type 2?",
+        "How do you know if you have type 1 or type 2 diabetes?",
+        "What is the way to know if you have type 1 or type 2 diabetes?",
+        "Can you provide me with a way to know if I have type 1 or type 2 diabetes?",
+        "Can you tell me how I can know if I have type 1 or type 2 diabetes?",
+        "How can you distinguish between type 1 or type 2 diabetes?",
+        "How can I tell if I have type 1 or type 2 diabetes?",
+        "Is there a way I can distinguish between having type 1 or type 2 diabetes?",
+        "What are the medical procedures and tests that determine the type of diabetes that I have?",
+        "What are the procedures that can be referred to to determine the type of diabetes type 1 or type 2?",
+        "What are the ways and means that I can refer to to determine the type of diabetes that I have?",
+        "Type one or type two? How do I know what type of diabetes I have?",
+        "I want a list of the procedures that I can do that will help me determine the type of diabetes, if it is type 1 or type 2?"
+      ],
+      "responses": [
+        "There are tests that can determine levels of natural insulin production. If you are truly type 1, you require insulin in order to live, usually via daily injections. With type 2, some people take insulin to help get glucose levels under control, but by adopting a more healthy lifestyle with diet/exercise, levels can begin to come under better control and insulin/medication may not required."
+      ]
+    },
+    {
+      "tag": "food",
+      "input": [
+        "Is diabetes causing me to be tired and sleepy after eating?",
+        "Is diabetes causing me fatigue and drowsiness after eating?",
+        "Does diabetes cause fatigue and drowsiness after eating?",
+        "Is drowsiness and tiredness after eating caused by diabetes?",
+        "I feel sleepy and tired after eating, is this due to diabetes?",
+        "Is drowsiness and tiredness after eating the cause of diabetes?",
+        "Is my feeling tired and drowsy after eating caused by diabetes?",
+        "Does diabetes cause feeling tired and drowsy after eating?",
+        "I feel tired and sleepy after I finish eating, is this because I have diabetes?",
+        "Can diabetes be considered to cause fatigue and drowsiness?",
+        "Diabetes causes feeling tired and drowsy after eating?",
+        "Is tiredness and drowsiness after eating because I have diabetes?",
+        "Is there a connection between my feeling tired and drowsy after eating with my diabetes?",
+        "Does diabetes directly lead to drowsiness and fatigue after eating?",
+        "Is it because I have diabetes that I feel tired and sleepy after eating my meal?",
+        "I work and feel tired and sleepy after eating my meal. Is this because I have diabetes?",
+        "After I finish work, I eat my meal and after I finish I feel tired and sleepy. Is this because I have diabetes?",
+        "Does diabetes make me sleepy and tired after I finish eating?",
+        "What is the rationale for my feeling tired and drowsy after I finished eating? Do I have diabetes?",
+        "Does diabetes make me sleepy after I finish eating?"
+      ],
+      "responses": [
+        "Elevated blood sugar levels send a signal to the brain to release serotonin, a hormone that is both calming and sleep inducing.  If a meal is high in carbs, that converts to sugar more quickly, elevating levels that may already be high and causing even more sleepiness. Eating more unrefined foods and walking will be a step toward better control and alertness."
+      ]
+    },
+    {
+      "tag": "health",
+      "input": [
+        "Is it possible to stop being diabetic?",
+        "Is it possible to stop having diabetes?",
+        "Is it possible to cure diabetes?",
+        "Can diabetes be finished?",
+        "Is diabetes curable?",
+        "Can diabetes be cured permanently?",
+        "Is there a way by which diabetes can be cured completely?",
+        "Can diabetes be cured completely?",
+        "Can diabetes be cured?",
+        "Is it possible to reach the stage through which diabetes can be cured?",
+        "Can diabetes be cured?",
+        "I would like to inquire about a question, can diabetes be completely cured?"
+      ],
+      "responses": [
+        "Once you have diabetes, you will always have it, but you can manage it to the point that it appears as if you don't have it. What this means is that you can get your blood sugars under control and within normal ranges, and maintain the healthy lifestyle required to stay within range. Learn all you can at this time on how to manage diabetes and live with it. You will find, for the most part, that an active lifestyle with healthy foods in moderate amounts will allow you a 'normal' quality life."
+      ]
+    },
+    {
+      "tag": "obesity",
+      "input": [
+        "Does obesity cause type 2 diabetes?",
+        "Does obesity cause type 2 diabetes?",
+        "Is obesity considered one of the reasons that can lead to type 2 diabetes?",
+        "Is type 2 diabetes caused by obesity?",
+        "Does obesity lead to type 2 diabetes?",
+        "Does obesity lead to type 2 diabetes?",
+        "Is type 2 diabetes the main cause of obesity?",
+        "Can we consider obesity as one of the main causes of type 2 diabetes?",
+        "Can obesity be considered one of the causes of type 2 diabetes?",
+        "Is one of the causes of type 2 diabetes is obesity?",
+        "Is obesity considered one of the causes of type 2 diabetes?",
+        "Obesity is one of the causes of type 2 diabetes?",
+        "Is obesity a cause of type 2 diabetes?",
+        "Does obesity lead to diabetes?",
+        "Is there a relationship between obesity and diabetes?",
+        "Are people who are obese more likely to develop diabetes?",
+        "Does diabetes mainly focus on obese people?",
+        "Does obesity significantly lead to diabetes?",
+        "Is diabetes closely related to people who suffer from obesity?",
+        "Does increasing obesity lead to diabetes?",
+        "I want to determine the relationship between people who suffer from obesity and diabetes?",
+        "Diabetes can happen to people who are very obese, is this true?"
+      ],
+      "responses": [
+        "Obesity is not the cause of type 2 diabetes, but is a strong contributor if one is genetically disposed. In my many years of counseling, I have seen very few folks with a BMI over 30 - in the obese classification - that don't have elevated or elevating glucose. Increased body fat appears to interfere at the cellular level with the uptake of glucose from the bloodstream into the cell: the job of insulin. This creates a condition called insulin resistance. Unless lifestyle changes are made towards better eating habits and activity, pre-diabetes will usually blossom into diabetes."
+      ]
+    },
+    {
+      "tag": "exercise",
+      "input": [
+        "Can a diabetic patient exercise?",
+        "Can a person with diabetes exercise?",
+        "Can a person with diabetes exercise?",
+        "Do you think a person with diabetes should exercise?",
+        "I want to make sure if the person with diabetes can exercise?",
+        "Is it possible to exercise for a person with diabetes?",
+        "Is it possible to exercise for a person who suffers from diabetes?",
+        "Can I do sports if I have diabetes?",
+        "Does diabetes prevent me from exercising?",
+        "Is exercise forbidden for a person with diabetes?",
+        "Is exercise forbidden for a person with diabetes?",
+        "Is exercise for a person with diabetes forbidden?",
+        "Do you think that a person with diabetes can not exercise?",
+        "I want to exercise and I have diabetes, can I?",
+        "Can someone with diabetes exercise?",
+        "Can someone with diabetes exercise?",
+        "Do you think that a person with diabetes can exercise?",
+        "I want to check if I can exercise if I have diabetes?",
+        "I want to make sure that I can exercise if I have diabetes?",
+        "Does diabetes allow me to exercise?",
+        "Does diabetes prevent me from exercising?",
+        "I want to check if a person with diabetes can exercise?",
+        "For a person with diabetes, can they exercise normally?",
+        "Can a person with diabetes exercise normally?",
+        "Is exercise possible for a person with diabetes?",
+        "Can you answer the question of exercise for a diabetic patient?",
+        "What about exercise for someone with diabetes?"
+      ],
+      "responses": [
+        "Yes, as exercise is one of the most important foundations for treatment and control of this disease, but it is important for the patient to know that he is prevented from exercising if the blood glucose level is less than 100 milligrams for fear of what is known as a sudden drop; Because sports, especially violent exercises, consume large amounts of blood glucose by the muscles."
+      ]
+    },
+    {
+      "tag": "ketoacidosis",
+      "input": [
+        "What is ketoacidosis and what are the symptoms?",
+        "What is ketoacidosis and what are its symptoms?",
+        "Can you tell me what ketoacidosis is and what are its symptoms?",
+        "What are the symptoms of ketoacidosis?",
+        "I want to know what are the symptoms of ketoacidosis?",
+        "Can you explain to me what ketoacidosis is and what are its symptoms?",
+        "What is ketoacidosis for a diabetic?",
+        "What is the scientific definition of ketoacidosis and what are the symptoms caused by it?",
+        "What are the symptoms caused by ketoacidosis?",
+        "What is the relationship between diabetes and ketoacidosis?",
+        "What is the relationship between diabetes and ketoacidosis?",
+        "Can you give me a working definition of ketoacidosis and the corresponding symptoms?",
+        "What are the symptoms caused by ketoacidosis?",
+        "What is the clear definition of ketoacidosis and what are the symptoms that can result from it?",
+        "What are the symptoms of ketoacidosis?",
+        "Can you sequence my ketoacidosis symptoms?",
+        "What is the concept of ketoacidosis and what are the symptoms resulting from it?",
+        "What is ketoacidosis? And what are its symptoms?",
+        "Definition of ketoacidosis and its symptoms for a diabetic patient?",
+        "Can you clearly define ketoacidosis?"
+      ],
+      "responses": [
+        "Ketoacidosis is the build-up of ketones (a by-product of rapid fat breakdown in the body) and can be life-threatening if left untreated.  This would generally not occur unless glucose levels were very elevated over a longer period where the cells, needing fuel, rapidly break down fat to help keep you alive.  At that point, one may be in a diabetic coma.  In pregnancy, it is important for good control to prevent ketoacidosis so ketone bodies do not form, as they can cross the placenta and be toxic to the fetus.  Symptoms may include fruity smelling breath, high blood sugar, excessive thirst, frequent urination, nausea and vomiting.  If concerned, you can buy strips at the pharmacy to test urine for the presence of ketones."
+      ]
+    },
+    {
+      "tag": "signs",
+      "input": [
+        "How would I know if I am diabetic? What are the signs?",
+        "How do I know I have diabetes? What are the signs?",
+        "What are the indications that I have diabetes?",
+        "Are there traceable signs that I have diabetes?",
+        "Are there signs that show that I have diabetes?",
+        "Are there signs I can refer to that confirm that I have diabetes?",
+        "How can I know that I have diabetes by signs or indications?",
+        "Are there reliable criteria in evaluating my diabetes?",
+        "Can you guide me to reliable evidence to assess whether I have diabetes or not?",
+        "Are there signs that I have diabetes?",
+        "Can you guide me to the way to confirm that I have diabetes through a list of the signs and indications that show it?",
+        "Signs and signs that show that I have diabetes?",
+        "I want a list of the clues by which I can be sure that I have diabetes?",
+        "How can I know that I have had diabetes What are the indications that show me that?",
+        "Can you list the signs and signs that I have diabetes starting?",
+        "Can you show me a list of signs that show I have diabetes?",
+        "Signs that show I have diabetes?",
+        "I want to make a list that can be used to check that I have diabetes?",
+        "Guidelines and signs that show that I have diabetes?"
+      ],
+      "responses": [
+        "Frequent urination, rapid weight loss, dizziness, and excessive thirst are just some of the symptoms associated with, but not exclusive to diabetes.  This is certainly truer of those on the path to type 1 diabetes.  Many others will only know by getting a blood test to see if their fasting levels are elevated. 100-125 is generally considered pre-diabetes, 126 and greater with 2 tests is a diagnosis of diabetes.  I suggest you request a fasting glucose test for starters."
+      ]
+    },
+    {
+      "tag": "risk_factors",
+      "input": [
+        "If I have some of the risk factors for diabetes, how often should I be tested to find out if I do have it or not",
+        "If I have certain risk factors for diabetes, how often should I get tested to see if I have it?",
+        "If I notice that I have some signs that I have diabetes, how often should I get tested?",
+        "I want to know how often I should be tested for diabetes or not, if I show some signs that I have the disease?",
+        "If I have some symptoms that show that I have diabetes, how often do I need to be tested to make sure that I actually have it or not?",
+        "If I notice some signs of diabetes, how often should I do tests and analyzes to make sure I have diabetes?",
+        "If I suddenly notice the appearance of some signs that show that I have diabetes, how often should I undergo medical tests and analyzes to ensure that I actually have the disease?",
+        "If there are some symptoms of diabetes I have? What tests do I need to do to confirm that I have the disease, and how often do I have to do these tests?",
+        "How often should I do tests and analyzes if there are some signs that I have diabetes?",
+        "If I notice the appearance of some signs and signs of diabetes in my body, how often should I do medical tests and analyzes to make sure that I have the disease?"
+      ],
+      "responses": [
+        "If you are not experiencing any symptoms, an annual physical should be enough. Your glucose levels should be under 100; ideally between 80-90. If you are experiencing any symptoms such as weakness, frequent urination, increased hunger or thirst, or frequent infections, then get a fasting test now."
+      ]
+    },
+    {
+      "tag": "feet",
+      "input": [
+        "Can diabetes cause a person's feet to have a bad odor?",
+        "Can diabetes cause bad breath in a person's feet?",
+        "Can a person with diabetes have bad feet?",
+        "Is it possible for diabetes to cause bad feet odor for a person?",
+        "Does the smelly feet appear due to the presence of diabetes in a person?",
+        "Can bad foot odor be associated with diabetes?",
+        "I feel like I have bad breath in my feet Is this related to my diabetes?",
+        "Is my diabetes associated with the appearance of bad feet odor?",
+        "Is bad breath related to my diabetes?",
+        "Does diabetes lead to the emergence of smelly feet?",
+        "I feel like I have bad feet, is this related to my diabetes?",
+        "Does diabetes lead to smelly feet?",
+        "Is the appearance of bad foot odor linked to diabetes in people with it?",
+        "I notice that I have bad feet, is this related to my diabetes?",
+        "I want to inquire about bad foot odor?",
+        "Can I explain why I have bad feet when I have diabetes?",
+        "Can you explain the bad foot odor?",
+        "I want an explanation for the smell of the feet and its association with diabetes?",
+        "I want to know is there a relationship between bad foot odor and diabetes?",
+        "Is there a link between diabetes and the emergence of bad foot odor? I want a rationale for bad foot odor knowing that I have diabetes?",
+        "Is diabetes associated with the emergence of unpleasant foot odors?"
+      ],
+      "responses": [
+        "Diabetes left unchecked may be involved in a foot infection, which can certainly cause an odor. Any build up of bacteria or fungus can do the same. Be sure your feet are thoroughly washed with soap before bed, inspect your feet for any cuts, splinters, etc, and when wearing socks, they should be cotton. A yearly visit to a podiatrist is recommended for persons with diabetes. I suggest you at least pose this question to your physician."
+      ]
+    },
+    {
+      "tag": "smoking",
+      "input": [
+        "How does smoking affect diabetes?",
+        "How does smoking affect diabetes?",
+        "What is the effect of smoking on a person with Samri disease?",
+        "Can you clarify the effects that can affect a person who smokes and has diabetes?",
+        "What are the effects of smoking for a person with diabetes?",
+        "Can you explain the effect of smoking on a person with diabetes?",
+        "I would like to know the effect of smoking on a person with diabetes?",
+        "Are there effects of smoking for a patient with diabetes?",
+        "What is the effect of smoking on a person with diabetes?",
+        "Does smoking affect a person with diabetes?",
+        "What are the negatives that can lead to smoking for a diabetic?",
+        "Can a person with diabetes smoke?",
+        "That someone has diabetes Can I smoke?",
+        "I would like to know if I have diabetes can I smoke?",
+        "What is the relationship of smoking for a person with diabetes?",
+        "I am diabetic can I smoke?",
+        "Can a person with diabetes smoke?",
+        "Do I have to stop smoking if I have diabetes?",
+        "What is the relationship between diabetes and smoking, and is there any damage to the body of a person with diabetes?",
+        "Can you explain the harms of smoking for a person with diabetes?",
+        "Is there an effect on the health of the body if I smoke and have diabetes at the same time?",
+        "What is the effect and results of smoking if you have diabetes?",
+        "Can you explain the effects of smoking on a person with diabetes?",
+        "Can you explain the effects of smoking on a diabetic patient?",
+        "Should a diabetic patient abstain from smoking and what are the effects of smoking for him?"
+      ],
+      "responses": [
+        "Diabetes is considered a cardiovascular disease and smoking negatively affects the cardiovascular system. Smoking also depletes the body of ascorbic acid (vitamin C), a major antioxidant - a cell protector - and can deposit lead and other unwanted chemicals into the fatty tissues of the body. This can definitely interfere with metabolism and good blood sugar control."
+      ]
+    },
+    {
+      "tag": "thinking",
+      "input": [
+        "How does diabetes affect your mood and thinking process?",
+        "How does diabetes affect your mood and thought process?",
+        "Is there an effect on the mood and thinking of a person with diabetes?",
+        "Are there negative effects for a person with diabetes related to mood and thinking?",
+        "Are there negative thoughts that can affect a person with diabetes?",
+        "Are there some effects for a person with diabetes in terms of thinking and mood?",
+        "Is there an effect of diabetes in terms of thinking and mood?",
+        "Can diabetes affect the affected person in terms of thinking and mood?",
+        "Can diabetes affect the mood of a person with diabetes?",
+        "Diabetes and its effect on the person affected by it in terms of thinking and mood?",
+        "What is the effect of diabetes in terms of thinking and mood on the person affected by it?",
+        "Is there an effect of diabetes in terms of thinking and mood on the person affected by it?",
+        "I want to know how diabetes affects the mood, thinking and psychology of a person with it?",
+        "Are there psychological effects on a person with diabetes?",
+        "Are there tiring psychological effects that can appear on a person with diabetes?",
+        "Is there a psychological impact on a person with diabetes?",
+        "How can diabetes affect the affected patient psychologically?",
+        "Is feeling mental fatigue one of the effects of diabetes?",
+        "My soul is tired, what does that have to do with my diabetes?",
+        "I want to explain how diabetes can affect my psyche?"
+      ],
+      "responses": [
+        "With or without diabetes, when blood sugars are not in balance, fatigue, dizziness, 'fuzzy' thinking, mood swings, and other symptoms may result. With insulin-requiring diabetes, this can be an even greater challenge to maintain stable blood sugars, but is very achievable with the right monitoring and support. Having a disease like diabetes does provide greater challenges for stable health and moods, but does not negate the ability to attain and maintain them."
+      ]
+    },
+    {
+      "tag": "child",
+      "input": [
+        "I have type 1 diabetes. What are the chances that my child will develop type 1 as well?",
+        "I suffer from type 1 diabetes. What are the chances of my child developing type 1 as well?",
+        "If I have type 1 diabetes, what is the chance that my child will develop type 1 diabetes?",
+        "Can my child get type 1 diabetes if I have type 1 diabetes?",
+        "I want to know the relationship and the probability that my child will develop type 1 diabetes if I also have type 1 diabetes?",
+        "Can you determine the percentage of the relationship between my having type 1 diabetes and the possibility of passing it on to my son?",
+        "Can my child get type 1 diabetes if I have type 1 diabetes?",
+        "I want to know the possibility of my child developing type 1 diabetes if I have it?",
+        "Can you determine whether my child will develop type 1 diabetes if I have it?",
+        "Can you determine the degree and likelihood of my child developing type 1 diabetes if I have it?",
+        "Can a type 1 fracture be transmitted if I have it?",
+        "Please know is there a possibility of my child getting type 1 diabetes if I have it?",
+        "Can my having type 1 diabetes lead to my child getting it?",
+        "Can my child get type 1 diabetes if I have type 1 diabetes?",
+        "I am afraid of my child getting type 1 diabetes if I have it?",
+        "Can you explain is it possible for my child to get type 1 diabetes if I have it?",
+        "Is there a relationship between having type 1 diabetes and the possibility of passing the infection on to my child?",
+        "Can my child get type 1 diabetes if I have it?",
+        "I want to clarify the possibility and possibility of passing on type 1 diabetes to my son if I have it?",
+        "Assuming I have type 1 diabetes, can diabetes be passed on to my child?",
+        "Is there a chance of passing type 1 diabetes on to my child if I have type 1 diabetes?",
+        "I want to determine the percentage of transmission of type 1 fracture if I have it?",
+        "Determining the degree and the relationship of my incidence of type 1 diabetes with the possibility of transmission to my child?",
+        "Can type 1 diabetes be transmitted to a parasite if I have it?",
+        "I want a scientific explanation for the possibility of passing on type 1 diabetes to my child if I have it?",
+        "Is it possible to clarify the relationship and the possibility that my diabetes is linked with the possibility of transmitting the infection to my child?"
+      ],
+      "responses": [
+        "While there is a genetic component to type 1 diabetes, environmental factors play a role as well. Research suggests that genes account for less than halfthe risk for developing type 1 diabetes. 90% of children who develop type 1 diabetes do not have a relative with this disease and it is reported that only 15% of people with type 1 diabetes have a first-degree relative, such as a parent, with diabetes. There are certain genes called HLA markers associated with diabetes risk which can be identified at birth. Research is ongoing and very active in the field of diabetes and genetic markers soupdated information could be available in the near future."
+      ]
+    },
+    {
+      "tag": "whatis",
+      "input": [
+        "What is diabetes?",
+        "What is the definition of diabetes?",
+        "Can you explain to me what diabetes is?",
+        "A clear scientific definition of diabetes?",
+        "What is clearly diabetes?",
+        "I want to know what is diabetes?",
+        "Hello, can you define diabetes?",
+        "Hello, what is diabetes in general?",
+        "Diabetes definition and what is it?",
+        "Medical definition of diabetes?",
+        "What is the medical definition of diabetes?",
+        "How does diabetes occur?",
+        "Can you define diabetes?",
+        "What is diabetes in general?"
+      ],
+      "responses": [
+        "Diabetes is a chronic (long-lasting) health condition that affects how your body turns food into energy. Most of the food you eat is broken down into sugar (also called glucose) and released into your bloodstream. When your blood sugar goes up, it signals your pancreas to release insulin. Insulin acts like a key to let the blood sugar into your body’s cells for use as energy."
+      ]
+    },
+    {
+      "tag": "antibiotics",
+      "input": [
+        "Can taking antibiotics to increase blood sugar levels?",
+        "Can antibiotics be taken to increase blood sugar levels?",
+        "Can I take antibiotics to increase blood sugar levels?",
+        "Can I increase my blood sugar level by taking antibiotics?",
+        "Can taking antibiotics increase blood sugar levels?",
+        "I wonder can I increase my blood sugar levels by taking antibiotics?",
+        "I am diabetic, can I increase my blood sugar level by taking antibiotics?",
+        "Are antibiotics a way to increase blood sugar levels by taking them?",
+        "Is taking antibiotics a way to increase blood sugar levels?",
+        "Can using antibiotics increase blood sugar levels?",
+        "Can the patient take antibiotics to increase blood sugar levels?",
+        "In order to increase the level of sugar in the blood, is it possible to take antibiotics?",
+        "Are antibiotics a way to increase blood sugar levels?",
+        "Can using antibiotics increase blood sugar levels?",
+        "Do antibiotics and taking them contribute to the increase in blood sugar levels?",
+        "Do antibiotics directly contribute to increasing blood sugar levels?",
+        "Does taking antibiotics increase blood sugar levels?",
+        "Do we find that taking antibiotics leads to an increase in blood sugar levels?"
+      ],
+      "responses": [
+        "Some antibiotics have been shown to cause elevated blood sugar levels, particularly for those who already have diabetes.  You’d have to check about your particular antibiotic to see what the cautions may be.  How high the elevation is will depend on the individual.  In general, antibiotics can change the microbiome of the gut, interfering with insulin sensitivity and glucose delivery to the cells"
+      ]
+    },
+    {
+      "tag": "angrylevel",
+      "input": [
+        "Why do I sometimes feel extremely angry when my blood sugar level is high?",
+        "Why do I sometimes get so angry when my blood sugar is high?",
+        "Is there a reason for me to get angry when my blood sugar level is high?",
+        "Is there a reason for me to get very angry when I have a high blood sugar level?",
+        "Does high blood sugar level lead to feeling very angry?",
+        "Is feeling very angry linked to high blood sugar level?",
+        "Is there a relationship between high blood sugar level and feeling very angry?",
+        "Is the extreme anger I feel related to high blood sugar level?",
+        "Does high blood sugar level lead to feeling very angry?",
+        "Do I feel very angry because of the high blood sugar level?",
+        "Is there a link between feeling very angry and high blood sugar?",
+        "Do high blood sugar levels cause you to feel very angry?",
+        "Feeling very angry and angry when your blood sugar levels rise?",
+        "Is there a scientific explanation for my anger when blood sugar levels rise?",
+        "Is there a logical explanation linking high blood sugar levels and the patient's feeling of extreme anger?",
+        "Is there an explanation for why I feel so angry when my blood sugar levels are high?",
+        "The moment my blood sugar levels rise, I feel very angry, what is the explanation for this?",
+        "Is feeling angry associated with the moment blood sugar levels rise?",
+        "Why do I feel angry and stressed when my blood sugar levels are high?",
+        "Is there an explanation linking my state of tension and anger at the moment my blood sugar levels are high?"
+      ],
+      "responses": [
+        "Anger can be an emotional response to high glucose levels, and perhaps more so if one has underlying feelings of anger (it is not uncommon to feel anger when dealing with diabetes management as well).  It is positive that you recognize this in yourself, perhaps working to best of your ability to not get to those levels that push those buttons."
+      ]
+    },
+    {
+      "tag": "anxiety",
+      "input": [
+        "Can an anxiety attack or severe anxiety raise blood sugar levels?",
+        "Can an outburst of anxiety or severe anxiety raise blood sugar levels?",
+        "Is there a relationship between severe anxiety and stress and high blood sugar levels?",
+        "Could high blood sugar levels be due to anxiety, stress, or a heart attack?",
+        "Can anxiety and stress lead to high blood sugar levels?",
+        "Is there a relationship between anxiety, stress and high blood sugar levels?",
+        "Could high blood sugar levels be a result of a heart attack?",
+        "Do heart attacks lead to high blood sugar levels?",
+        "Is there a relationship between the occurrence of heart attacks, anxiety, stress and high blood sugar levels?",
+        "Do heart attacks, anxiety attacks and stress lead to high blood sugar levels?",
+        "Are high blood sugar levels generally linked to heart attacks, anxiety and stress?",
+        "Is there a scientific explanation for why blood sugar levels rise when heart attacks and anxiety attacks occur?",
+        "Does stress and anxiety lead to high blood sugar levels?",
+        "Does stress for a diabetic lead to high blood sugar levels?",
+        "Can anxiety and stress lead to a rise in blood sugar levels?",
+        "Is there a general explanation linking stress and anxiety with high blood sugar levels?",
+        "Are high blood sugar levels caused by anxiety, heart attacks and stress?",
+        "Can stress and anxiety lead to high blood sugar levels?",
+        "Do stress, anxiety and heart attacks cause a noticeable rise in blood sugar levels?",
+        "Is high blood sugar levels caused by stress and anxiety sometimes?",
+        "Is there a link between high blood sugar levels and anxiety and stress?",
+        "Are anxiety and stress one of the causes of high blood sugar levels?"
+      ],
+      "responses": [
+        "It is possible.  Anxiety is a stressor that can elevate hormones, especially cortisol, the fight or flight hormone.  This rallies glucose to the bloodstream to prepare you to run or defend yourself.  Hopefully, you are working with anti-anxiety techniques such as deep breathing being a good place to start."
+      ]
+    },
+    {
+      "tag": "temperatures",
+      "input": [
+        "Can high temperatures increase blood sugar levels?",
+        "Can high temperatures increase blood sugar levels?",
+        "Does high temperature lead to an increase in blood sugar levels?",
+        "Can a high temperature increase blood sugar levels?",
+        "Can the blood sugar level increase if the temperature is high?",
+        "Is it possible to increase the level of sugars in the blood if the temperature rises?",
+        "The relationship between high blood sugar level and high temperature?",
+        "Is there a relationship between high blood sugar level with high temperature?",
+        "Is high temperature associated with high blood sugar level?",
+        "Can the high level of sugars in the blood be due to an increase or a high temperature?",
+        "Does high temperature most of the time lead to high blood sugar level?",
+        "Is high blood sugar level as a result of high temperatures sometimes?",
+        "Is high blood sugar level associated with high temperature?",
+        "Does the patient's high body temperature lead to a high blood sugar level?",
+        "Is body temperature associated with high blood sugar?",
+        "Is body temperature can lead to a rise in the level of sugar in the blood?",
+        "Is there a relationship between high blood sugar level and body temperature?",
+        "Is there a logical relationship between body temperature and high blood sugar level?",
+        "Is body temperature associated with high and increasing blood sugar level?",
+        "Is body temperature related to high blood sugar level?",
+        "Can my blood sugar level rise if my body temperature rises?"
+      ],
+      "responses": [
+        "High heat can lead to dehydration, which in turn can cause high blood sugars. It takes 6 molecules of water to move one molecule of sugar from the blood stream, so the higher the sugar, the more water you need to drink. Extreme hot or cold temperatures can cause changes in the vascular system that can affect blood sugar and cause reactions."
+      ]
+    },
+    {
+      "tag": "breakfast",
+      "input": [
+        "Why does blood sugar rise after eating breakfast?",
+        "Why does blood sugar rise after eating breakfast?",
+        "Is there a reason for high blood sugar levels after breakfast is finished?",
+        "Does eating breakfast in the morning lead to high blood sugar levels?",
+        "Is there a relationship between high blood sugar levels in the morning and eating breakfast?",
+        "Does eating breakfast lead to a rise in blood sugar levels?",
+        "Is the sudden rise in blood sugar levels due to eating breakfast?",
+        "Does eating breakfast lead to high blood sugar levels?",
+        "Does eating breakfast at times lead to high blood sugar level?",
+        "Is there a relationship between high blood sugar and eating breakfast?",
+        "What is the link between a sudden rise in blood sugar levels and eating breakfast?",
+        "Is there a relationship linking high blood sugar level with eating breakfast?",
+        "High blood sugar levels after eating breakfast, is there a relationship between them?",
+        "Can you explain the relationship between high blood sugar levels and eating breakfast?",
+        "After I finish eating breakfast I feel a rise in blood sugar?",
+        "Sometimes I notice a rise in blood sugar levels after I finish eating breakfast. What is the reason?",
+        "Can you explain why blood sugar levels rise after you finish eating breakfast?",
+        "Does eating breakfast lead to high blood sugar levels?",
+        "Do you notice a rise in blood sugar levels after eating breakfast?"
+      ],
+      "responses": [
+        "All food turns into sugar and carbs turn the fastest. It is normal for everyone's blood sugar to rise after a meal though folks without diabetes don't go over 140 as a rule. If your blood sugars had been closer to 100 before your meal, you would have been closer to a normal range. Also, it may have been the types of foods you ate. A breakfast that includes protein, such as an egg, and whole grains, such as a higher fiber toast may help to keep your numbers down. Check your blood sugars 2 hours after eating for a while so that you see how you are the rest of the day. This will help your physician in adjusting any medications you might be on. Keeping a very healthy lifestyle is your best ally for keeping those numbers down."
+      ]
+    },
+    {
+      "tag": "risks",
+      "input": [
+        "What are the risks when blood sugar is 400 to 500?",
+        "What are the risks that can result when the high level of sugar in the blood?",
+        "What are the results of high blood sugar level to a large level?",
+        "What are the results that can appear when the blood sugar level rises to a large degree?",
+        "What are the consequences of high blood sugar level to a large degree?",
+        "Significant rise in blood sugar levels, what are the risks resulting from that?",
+        "What are the consequences of a significant increase in blood sugar levels?",
+        "What are the risks that can appear when high blood sugar levels?",
+        "What are the consequences and risks of high blood sugar levels?",
+        "What are the consequences of high blood sugar levels?",
+        "Are there major risks that can result when blood sugar levels rise too high?",
+        "What are the results of high blood sugar level to high levels?",
+        "Can I know the results of high blood sugar levels to significant levels?",
+        "What are the consequences of high blood sugar levels to a large degree?",
+        "What are the results of high blood sugar level to a large degree?",
+        "Does high blood sugar level to a large degree lead to great risks?",
+        "What are the results of high blood sugar level to a large degree?",
+        "Can you tell me what are the consequences of a very high blood sugar level?"
+      ],
+      "responses": [
+        "The intensity of the symptoms will vary between individuals. If these high blood sugars persist, some symptoms that may be experienced include dizziness, nausea, headaches, frequent urination, and hunger. In some cases, one may even experience Diabetic Ketoacidosis, a condition that if left unchecked, can lead to coma. This is generally more associated with type one diabetes. High blood sugars over the long-term precipitate complications such as organ and nerve damage."
+      ]
+    },
+    {
+      "tag": "aftereatingmeal",
+      "input": [
+        "What is a good blood sugar reading after eating a meal?",
+        "What is a good blood sugar reading after a meal?",
+        "What are good readings for your blood sugar level after you finish eating?",
+        "What is a good level of blood sugar level after you finish eating?",
+        "Can you tell me a good blood sugar level after you finish eating?",
+        "Can I know what a good blood sugar level is after I finish eating?",
+        "What should your blood sugar level be after you finish eating?",
+        "What is a good and acceptable level of blood sugar after eating?",
+        "What is the acceptable level of blood sugar in the body after eating?",
+        "What are good blood sugar readings after a meal?",
+        "What is a good level of blood sugar level after eating a meal?",
+        "Can you tell me a good blood sugar level after a meal?",
+        "Can I know what is a good level of blood sugar level after eating a meal?",
+        "What should the blood sugar level be after finishing a meal?",
+        "What is the good and acceptable level of blood sugar after eating a meal?",
+        "What is the acceptable level of blood sugar in the body after eating a meal?",
+        "Can I know the acceptable level of sugar in the blood after eating the meal and food?",
+        "What is the acceptable and good blood sugar level after eating?"
+      ],
+      "responses": [
+        "In an entire day, we generally say your blood sugar should not go over 140 even after eating a large meal. Ideally it would not go over 120 two hours after eating. With diabetes, one's physician may have a higher goal, depending on the health of the person, in order to avoid hypoglycemia (low blood sugar)."
+      ]
+    },
+    {
+      "tag": "frustrated",
+      "input": [
+        "I feel hopeless because I have diabetes, are there many people with diabetes who feel like me?",
+        "Feeling hopeless goes hand in hand with my diabetes",
+        "Is there a way to get out of the despair that I have been holding since my diabetes?",
+        "My diabetes makes me feel very desperate, is there a way to get rid of it?",
+        "I want psychological support, I feel hopeless about my life after affliction with diabetes?",
+        "I feel frustrated and hopeless after working out I have diabetes Is there any help for me?",
+        "My diabetes makes me very frustrated and very desperate, is there support for me?",
+        "I want to help you get out of the despair that I feel after my diabetes",
+        "I want to get out of despair I feel frustrated after learning that I have diabetes",
+        "My diabetes has made me feel so desperate, that I am so frustrated",
+        "Is there a way to get back to my activity after feeling hopeless after having diabetes?",
+        "Having diabetes makes me desperate and frustrated. I want a way out of this situation"
+      ],
+      "responses": [
+        "We know that the disease is new to you, but at the same time you must try to adapt to it, with time you will return to your normal state, but the time it takes to return to that dark state, depends mainly on how much you accept the situation you are in."
+      ]
+    },
+    {
+      "tag": "physical_ability",
+      "input": [
+        "I'm afraid of not being able to do my basic tasks after getting diabetes",
+        "I have a fear of diminishing my physical ability to perform many tasks",
+        "Having diabetes makes me afraid of not being able to do so many different physical tasks",
+        "Due to my diabetes, I am afraid of the future that I am not able to perform various physical tasks",
+        "As a diabetic, I am not able to perform many physical tasks and tasks that require physical strength",
+        "Due to diabetes, tasks and chores that require activity throughout the day and physical strength will not be able to perform",
+        "I would like help as I have diabetes, I am no longer able to perform basic tasks as I do not have the physical strength to do them",
+        "With diabetes my physical strength is fading Is there a way to compensate for this?",
+        "I am afraid that I will lose my job, which needs a lot of physical strength, after my diabetes",
+        "I am afraid of losing my job because I need a lot of physical strength and I have diabetes"
+      ],
+      "responses": [
+        "Being diagnosed with diabetes does not mean that you are no longer able to perform those tasks that require physical strength, it is just that you need more time to adapt to diabetes, and you can simply return to the work you are doing."
+      ]
+    }
+  ]
+}
